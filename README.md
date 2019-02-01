@@ -1,2 +1,2 @@
-# wordgen
+# WordGen
 Custom Wordlist Generator

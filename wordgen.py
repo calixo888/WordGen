@@ -76,9 +76,9 @@ def default_wordlist(limit):
         print('[+] Wordlist saved in ' + path + ' as new-wordlist.txt')
     except:
         os.chdir(path)
-        file = open(path + '/default-wordlist.txt', 'w')
+        file = open(path + '/new-wordlist.txt', 'w')
         file.write(text)
-        print('[+] Wordlist saved in ' + path + ' as default-wordlist.txt')
+        print('[+] Wordlist saved in ' + path + ' as new-wordlist.txt')
 
 
 def wordlistPrep(patterns):
